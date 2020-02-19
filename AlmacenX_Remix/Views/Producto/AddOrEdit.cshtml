@@ -1,0 +1,50 @@
+﻿@model AlmacenX_Remix.Models.Producto
+
+@{
+    ViewData["Title"] = "Info Producto";
+}
+
+<h4>Datos del Producto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="AddOrEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ProductID" />
+            <div class="form-group">
+                <label asp-for="NombreProduct" class="control-label"></label>
+                <input asp-for="NombreProduct" class="form-control" />
+                <span asp-validation-for="NombreProduct" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="stock" class="control-label"></label>
+                    <input asp-for="stock" class="form-control" />
+                    <span asp-validation-for="stock" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="PrecioProd" class="control-label"></label>
+                    <input asp-for="PrecioProd" class="form-control" />
+                    <span asp-validation-for="PrecioProd" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="submit" value="Enviar" class="btn btn-primary btn-block" />
+                </div>
+                <div class="form-group col-md-6">
+                    <a asp-action="Index" class="btn btn-secondary btn-block"><i class="fa fa-table"></i> Lista Productos</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

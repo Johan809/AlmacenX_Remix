@@ -159,3 +159,7 @@ C:\Users\Johan Alonzo Plc\source\repos\AlmacenX_Remix\AlmacenX_Remix\bin\Debug\n
 C:\Users\Johan Alonzo Plc\source\repos\AlmacenX_Remix\AlmacenX_Remix\obj\Debug\netcoreapp3.1\AlmacenX_Remix.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Johan Alonzo Plc\source\repos\AlmacenX_Remix\AlmacenX_Remix\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Index.cshtml.g.cs
 C:\Users\Johan Alonzo Plc\source\repos\AlmacenX_Remix\AlmacenX_Remix\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\AddOrEdit.cshtml.g.cs
+C:\Users\Johan Alonzo Plc\source\repos\AlmacenX_Remix\AlmacenX_Remix\obj\Debug\netcoreapp3.1\Razor\Views\Empleado\AddOrEdit.cshtml.g.cs
+C:\Users\Johan Alonzo Plc\source\repos\AlmacenX_Remix\AlmacenX_Remix\obj\Debug\netcoreapp3.1\Razor\Views\Empleado\Index.cshtml.g.cs
+C:\Users\Johan Alonzo Plc\source\repos\AlmacenX_Remix\AlmacenX_Remix\obj\Debug\netcoreapp3.1\Razor\Views\Producto\AddOrEdit.cshtml.g.cs
+C:\Users\Johan Alonzo Plc\source\repos\AlmacenX_Remix\AlmacenX_Remix\obj\Debug\netcoreapp3.1\Razor\Views\Producto\Index.cshtml.g.cs
